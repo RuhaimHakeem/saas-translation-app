@@ -20,7 +20,8 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@logos/*": ["./images/logos/*"]
+      "@logos/*": ["./images/logos/*"],
+      "@intros/*": ["./images/landing-page/*"]
     }
   },
   "include": [
