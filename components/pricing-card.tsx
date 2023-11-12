@@ -67,9 +67,9 @@ export const PricingCard = ({ redirect }: { redirect: boolean }) => {
                   </span>
                 )}
               </div>
-              <p className="mt-6 font-semibold text-base leading-7 text-gray-600">
+              {/* <p className="mt-6 font-semibold text-base leading-7 text-gray-600">
                 {tier.description}
-              </p>
+              </p> */}
               <ul className="mt-6 space-y-4 text-sm leading-6 text-gray-600">
                 {tier.features.map((feature, i) => (
                   <li key={i} className="flex gap-x-3">
